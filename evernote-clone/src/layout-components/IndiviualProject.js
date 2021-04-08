@@ -38,8 +38,8 @@ function IndiviualProject({project }) {
         role="button"
         aria-label="Confirm deletion of project"
       >
-        <DeleteIcon />
-        {showConfirm && (
+        <DeleteIcon className="delete-btn" onClick={() => deleteProject(project.docId)} />
+        {/* {showConfirm && (
           <div className="project-delete-modal">
             <div className="project-delete-modal__inner">
               <p>Are you sure you want to delete this project?</p>
@@ -62,7 +62,7 @@ function IndiviualProject({project }) {
               </span>
             </div>
           </div>
-        )}
+        )} */}
       </span>
     </>
   );

@@ -6,6 +6,7 @@ import AddOutlinedIcon from '@material-ui/icons/AddOutlined';
 import { Button } from '@material-ui/core';
 import { auth } from '../firebase';
 import firebase from 'firebase'
+import AddTask from '../layout-components/AddTask';
 function Header({ darkMode, setDarkMode }) {
     const user=firebase.auth().currentUser
     const [shouldShowMain, setShouldShowMain] = useState(false);
@@ -49,12 +50,12 @@ function Header({ darkMode, setDarkMode }) {
           </div>
         </nav>
   
-        {/* <AddTask
+        <AddTask
           showAddTaskMain={false}
           shouldShowMain={shouldShowMain}
           showQuickAddTask={showQuickAddTask}
           setShowQuickAddTask={setShowQuickAddTask}
-        /> */}
+        />
       </header>
     )
 }

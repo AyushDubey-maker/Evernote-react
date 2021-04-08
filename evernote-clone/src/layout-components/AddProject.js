@@ -8,14 +8,14 @@ function AddProject({shouldShow=false}) {
     const [show,setShow]=useState()
     const [projectName,setProjectName]=useState('')
     const projectId=generatePushId();
-    const {setProjects}=useProjectsValue()
+    const {projects,setProjects}=useProjectsValue()
     const user=firebase.auth().currentUser
     const addProject=()=>{
         projectName && db.collection('projects').doc(user?.uid).collection('user-projects').add({
             projectId,
             name:projectName
         }).then(()=>{
-            setProjects([])
+            setProjects([...projects])
             setProjectName('')
             setShow(false)
         })

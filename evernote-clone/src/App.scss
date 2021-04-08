@@ -141,6 +141,14 @@
        background-color: #282828;
        border-color: transparent;
      }
+     .user_info>p{
+       color: white !important;
+     }
+     .logo>img{
+       background-color: white;
+       padding: 6px;
+       margin-top: 6px;
+     }
    }
    
    /* Header
@@ -718,3 +726,6 @@
        @include cancel();
      }
    }
+.delete-btn:hover{
+  color: red;
+}
