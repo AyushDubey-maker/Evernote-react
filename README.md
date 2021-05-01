@@ -11,3 +11,11 @@
     "react": "^17.0.2"
     "react-dom": "^17.0.2"
     "react-router-dom": "^5.2.0"
+
+## Code Output:
+
+> ### `User Login Page`:
+<img src='./evernote-clone/git-images/evernote-login.png' height="350px" width="400px"/>
+
+> ### `User Register Page`:
+<img src='./evernote-clone/git-images/evernote-register.png' height="350px" width="400px"/>
