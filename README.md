@@ -15,7 +15,12 @@
 ## Code Output:
 
 > ### `User Login Page`:
-<img src='./evernote-clone/git-images/evernote-login.png' height="350px" width="400px"/>
+<img src='./evernote-clone/git-images/evernote-login.png' />
 
 > ### `User Register Page`:
-<img src='./evernote-clone/git-images/evernote-register.png' height="350px" width="400px"/>
+<img src='./evernote-clone/git-images/evernote-register.png' />
+
+> ### `Home Page`:
+<img src='./evernote-clone/git-images/evernote-layout-1.png' />
+<img src='./evernote-clone/git-images/evernote-layout-2.png' />
+<img src='./evernote-clone/git-images/evernote-layout-3.png' />
