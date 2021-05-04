@@ -11,6 +11,9 @@
     "react": "^17.0.2"
     "react-dom": "^17.0.2"
     "react-router-dom": "^5.2.0"
+    
+   `It is an  User-Todo Application but a bit more advance as user can store a task according to specific projects he/she has created and can also
+    specify in how many days or weeks the task has to be completed.`
 
 ## Code Output:
 
