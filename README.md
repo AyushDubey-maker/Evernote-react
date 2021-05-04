@@ -1,4 +1,4 @@
-> Evernote clone 2.0 built on ReactJs and firebase database.
+>## Evernote clone 2.0 built on ReactJs and firebase database.
 ### `Packages to be installed :`
     npm install
 
