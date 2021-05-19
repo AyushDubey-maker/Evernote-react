@@ -1,4 +1,4 @@
->## Evernote clone 2.0 built on ReactJs and firebase database.
+>## Evernote clone 2.0 built on ReactJs and firebase database.📜
 ### `Packages to be installed :`
     npm install
 
@@ -12,10 +12,21 @@
     "react-dom": "^17.0.2"
     "react-router-dom": "^5.2.0"
     
-   `It is an  User-Todo Application but a bit more advance as user can store a task according to specific projects he/she has created and can also
-    specify in how many days or weeks the task has to be completed.`
 
-## Code Output:
+    
+### `Note:Do not forget to create your firebase Project and add the firebase config file in your code`
+
+
+Get started with Firebase (Web): https://firebase.google.com/docs/web/setup
+
+Firebase React Setup:
+https://www.codementor.io/@yurio/all-you-need-is-react-firebase-4v7g9p4kf
+
+Checkout firebase demo file for this app :  
+https://github.com/AyushDubey-maker/expense-tracker-react/blob/master/expense-tracker/src/demo-firebase.js
+
+<details>
+    <summary>Code Output:</summary>
 
 > ### `User Login Page`:
 <img src='./evernote-clone/git-images/evernote-login.png' />
@@ -27,3 +38,10 @@
 <img src='./evernote-clone/git-images/evernote-layout-1.png' />
 <img src='./evernote-clone/git-images/evernote-layout-2.png' />
 <img src='./evernote-clone/git-images/evernote-layout-3.png' />
+    
+</details>
+
+> ### Features 📣
+
+   `It is an  User-Todo Application but a bit more advance as user can store a task according to specific projects he/she has created and can also
+    specify in how many days or weeks the task has to be completed.`
